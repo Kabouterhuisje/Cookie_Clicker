@@ -14,6 +14,7 @@
 		5D92A54F2023279600BACB9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D92A54D2023279600BACB9E /* LaunchScreen.storyboard */; };
 		5D92A5572023510200BACB9E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D92A5562023510200BACB9E /* Item.swift */; };
 		E87C4728202D2CB900A384E5 /* CreditsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87C4727202D2CB900A384E5 /* CreditsViewController.swift */; };
+		E87C472C202D34F700A384E5 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E87C472B202D34F700A384E5 /* StoreViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		5D92A5502023279600BACB9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D92A5562023510200BACB9E /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		E87C4727202D2CB900A384E5 /* CreditsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CreditsViewController.swift; path = "Cookie Clicker/CreditsViewController.swift"; sourceTree = "<group>"; };
+		E87C472B202D34F700A384E5 /* StoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StoreViewController.swift; path = "Cookie Clicker/StoreViewController.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +44,7 @@
 		5D92A5382023279600BACB9E = {
 			isa = PBXGroup;
 			children = (
+				E87C472B202D34F700A384E5 /* StoreViewController.swift */,
 				E87C4727202D2CB900A384E5 /* CreditsViewController.swift */,
 				5D92A5432023279600BACB9E /* Cookie Clicker */,
 				5D92A5422023279600BACB9E /* Products */,
@@ -142,6 +145,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E87C472C202D34F700A384E5 /* StoreViewController.swift in Sources */,
 				5D92A5472023279600BACB9E /* ViewController.swift in Sources */,
 				5D92A5572023510200BACB9E /* Item.swift in Sources */,
 				5D92A5452023279600BACB9E /* AppDelegate.swift in Sources */,
