@@ -26,5 +26,11 @@ class ViewController: UIViewController {
     }
     @IBOutlet weak var cookieAmount: UILabel!
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let store = segue.destination as? StoreViewController {
+            store.cookiesClicked = timesClicked
+        }
+    }
+    
 }
 
